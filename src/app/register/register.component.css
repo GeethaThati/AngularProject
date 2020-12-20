@@ -1,0 +1,53 @@
+.main {   
+    width: 100%;
+    margin: auto;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color:  rgb(234, 234, 247);
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  .container {
+    padding: 16px;
+    width: 350px;
+    margin: auto;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
